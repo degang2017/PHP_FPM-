@@ -72,7 +72,7 @@ struct fpm_globals_s {
 |fpm_events.h| 事件：定义触发器，IO模型|
 |fpm_cleanup.h| 清理操作|
 |fpm_sockets.h| socket 操作|
-|fpm_unix.h|unix 初始化环境权限、socket等|
+|fpm_unix.h| 初始化unix环境权限、socket等|
 |fpm_process_ctl.h|进程管理|
 |fpm_conf.h| 配置文件解析|
 |fpm_worker_pool.h|进程池|
