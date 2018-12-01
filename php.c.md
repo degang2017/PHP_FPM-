@@ -69,14 +69,14 @@ struct fpm_globals_s {
 |fpm_children.h| 创建子进程|
 |fpm_signals.h| 信号处理|
 |fpm_env.h| 环境变量|
-|fpm_events.h| 事件：定义触发器，IO模式|
+|fpm_events.h| 事件：定义触发器，IO模型|
 |fpm_cleanup.h| 清理操作|
 |fpm_sockets.h| socket 操作|
-|fpm_unix.h|unix 环境|
+|fpm_unix.h|unix 初始化环境权限、socket等|
 |fpm_process_ctl.h|进程管理|
 |fpm_conf.h| 配置文件解析|
 |fpm_worker_pool.h|进程池|
-|fpm_scoreboard.h| 记分器|
+|fpm_scoreboard.h| 记分器例如cpu、内存等|
 |fpm_stdio.h| io操作|
 |fpm_log|log操作|
 
