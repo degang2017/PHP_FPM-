@@ -35,7 +35,7 @@ struct fpm_globals_s {
     char *prefix;
     //进程id
     char *pid;
-    //子进程是否运行
+    //正在运行子进程数量
     int running_children;
     //错误日志文件描述符
     int error_log_fd;
