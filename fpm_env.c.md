@@ -267,7 +267,7 @@ int fpm_env_init_main() /* {{{ */
             env_nb++;
         }
 
-        //扩展环境变量大小，加1主要存储NULL值
+        //申请新的环境变量地址空间，加1主要存储NULL值
         if ((new_environ = malloc((1U + env_nb) * sizeof (char *))) == NULL) {
             return -1;
         }
