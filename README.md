@@ -16,3 +16,7 @@ PHP_FPM源码分析
 [fpm_cleanup.c](./fpm_cleanup.c.md)
 
 [fpm_env.c](./fpm_env.c.md)
+
+[fpm_events.c](./fpm_events.c.md)
+
+[fpm_events.epoll.c](./fpm_events_epoll.c.md)
