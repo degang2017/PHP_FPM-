@@ -1,8 +1,6 @@
 # PHP_FPM-
 PHP_FPM源码分析
 
-待续......
-
 [php.c](./php.c.md)
 
 [fpm_arrays.h](./fpm_arrays.h.md)
@@ -35,6 +33,6 @@ PHP_FPM源码分析
 
 [fpm_log.c](./fpm_log.c.md)
 
-[fpm_c](./fpm.c.md)
+[fpm.c](./fpm.c.md)
 
 [fpm_shm.c](./fpm_shm.c.md)
